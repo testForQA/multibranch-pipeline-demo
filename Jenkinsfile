@@ -7,7 +7,7 @@ pipeline {
             steps
             {
                 script {
-                        echo "INFO: Build Stage"
+                        ech "INFO: Build Stage"
                     }
             }
         }
