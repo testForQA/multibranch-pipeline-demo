@@ -9,6 +9,7 @@ pipeline {
                 script {
                         echo "INFO: Build Stage"
                         someProperty=$BAR
+                        param1 = ${PARAMETER_NAME}
                     }
             }
         }
