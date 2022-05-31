@@ -8,7 +8,7 @@ pipeline {
             {
                 script {
                         echo "INFO: Build Stage"
-                        sleep 2660
+                        sleep 50
                         properties([
 
                             parameters([
